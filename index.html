@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>小林の台所</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&family=Zen+Maru+Gothic:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<main class="page">
+  <div class="site-header">
+    <div class="site-header__title">小林の台所</div>
+    <div class="site-header__tagline">小林家の献立記録</div>
+  </div>
+
+  <div class="filter-row">
+    <div class="section-label">さいきんの料理</div>
+    <div id="recent-dishes" class="recent-list"></div>
+  </div>
+
+  <a class="btn-primary" href="dishes/index.html">料理一覧を見る</a>
+</main>
+
+<nav class="bottom-nav">
+  <a class="bottom-nav__item is-active" href="index.html">
+    <span class="bottom-nav__dot"></span>
+    ホーム
+  </a>
+  <a class="bottom-nav__item" href="dishes/index.html">
+    <span class="bottom-nav__dot"></span>
+    一覧
+  </a>
+  <a class="bottom-nav__item" href="about.html">
+    <span class="bottom-nav__dot"></span>
+    About
+  </a>
+</nav>
+
+<script src="js/constants.js"></script>
+<script src="js/data.js"></script>
+<script src="js/render.js"></script>
+<script src="js/top.js"></script>
+</body>
+</html>
