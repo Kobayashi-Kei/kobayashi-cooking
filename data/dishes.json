@@ -1,59 +1,5 @@
 [
   {
-    "id": "buta-shogayaki",
-    "name": "豚の生姜焼き",
-    "cook": "keita",
-    "categories": ["washoku"],
-    "date": "2026-09-18",
-    "memo": "今日は生姜をたっぷり効かせてみました。ご飯が進む一品！次はにんにくも足してみようかな。",
-    "photos": []
-  },
-  {
-    "id": "avocado-salad",
-    "name": "アボカドサラダ",
-    "cook": "yuika",
-    "categories": ["yoshoku"],
-    "date": "2026-09-15",
-    "memo": "アボカドとトマトとモッツァレラで簡単サラダ。",
-    "photos": []
-  },
-  {
-    "id": "mapo-tofu",
-    "name": "麻婆豆腐",
-    "cook": "keita",
-    "categories": ["chuka"],
-    "date": "2026-09-10",
-    "memo": "豆板醤多めでピリ辛に。",
-    "photos": []
-  },
-  {
-    "id": "strawberry-shortcake",
-    "name": "いちごのショートケーキ",
-    "cook": "yuika",
-    "categories": ["dessert"],
-    "date": "2026-09-05",
-    "memo": "誕生日に焼いたショートケーキ。",
-    "photos": []
-  },
-  {
-    "id": "nikujaga",
-    "name": "肉じゃが",
-    "cook": "keita",
-    "categories": ["washoku"],
-    "date": "2026-08-30",
-    "memo": "定番の肉じゃが。",
-    "photos": []
-  },
-  {
-    "id": "gapao-rice",
-    "name": "ガパオライス",
-    "cook": "yuika",
-    "categories": ["other"],
-    "date": "2026-08-20",
-    "memo": "目玉焼きをのせて。バジルの代わりに大葉でも代用可。",
-    "photos": []
-  },
-  {
     "id": "salmon-pie",
     "name": "サーモンのパイ包み",
     "cook": "yuika",

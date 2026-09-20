@@ -19,11 +19,11 @@ function createCategoryTags(categoryIds, size) {
     .map((cat) => createTag(cat.label, cat.color, size));
 }
 
-function createPhotoElement(dish, className, placeholderText) {
+function createPhotoElement(dish, className, placeholderText, basePath) {
   if (dish.photos && dish.photos.length > 0) {
     const img = document.createElement('img');
     img.className = className;
-    img.src = dish.photos[0];
+    img.src = (basePath || '') + dish.photos[0];
     img.alt = dish.name;
     return img;
   }
@@ -40,12 +40,12 @@ function createPhotoElement(dish, className, placeholderText) {
   return placeholder;
 }
 
-function createDishCard(dish, detailUrl) {
+function createDishCard(dish, detailUrl, basePath) {
   const card = document.createElement('a');
   card.className = 'dish-card';
   card.href = detailUrl;
 
-  card.appendChild(createPhotoElement(dish, 'dish-card__photo'));
+  card.appendChild(createPhotoElement(dish, 'dish-card__photo', null, basePath));
 
   const name = document.createElement('div');
   name.className = 'dish-card__name';
@@ -62,12 +62,12 @@ function createDishCard(dish, detailUrl) {
   return card;
 }
 
-function createRecentCard(dish, detailUrl) {
+function createRecentCard(dish, detailUrl, basePath) {
   const card = document.createElement('a');
   card.className = 'recent-card';
   card.href = detailUrl;
 
-  card.appendChild(createPhotoElement(dish, 'recent-card__photo'));
+  card.appendChild(createPhotoElement(dish, 'recent-card__photo', null, basePath));
 
   const body = document.createElement('div');
   body.className = 'recent-card__body';

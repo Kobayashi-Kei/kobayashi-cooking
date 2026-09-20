@@ -81,7 +81,7 @@
     }
 
     dishes.forEach((dish) => {
-      grid.appendChild(createDishCard(dish, `detail.html?id=${encodeURIComponent(dish.id)}`));
+      grid.appendChild(createDishCard(dish, `detail.html?id=${encodeURIComponent(dish.id)}`, '../'));
     });
   }
 

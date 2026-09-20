@@ -18,14 +18,14 @@
 
     document.title = `${dish.name} | 小林の台所`;
 
-    root.appendChild(createPhotoElement(dish, 'detail-photo', '写真'));
+    root.appendChild(createPhotoElement(dish, 'detail-photo', '写真', '../'));
 
     if (dish.photos && dish.photos.length > 1) {
       const thumbs = document.createElement('div');
       thumbs.className = 'detail-thumbs';
       dish.photos.slice(1).forEach((src) => {
         const img = document.createElement('img');
-        img.src = src;
+        img.src = '../' + src;
         img.alt = dish.name;
         thumbs.appendChild(img);
       });
