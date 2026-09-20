@@ -52,5 +52,32 @@
     "date": "2026-08-20",
     "memo": "目玉焼きをのせて。バジルの代わりに大葉でも代用可。",
     "photos": []
+  },
+  {
+    "id": "salmon-pie",
+    "name": "サーモンのパイ包み",
+    "cook": "yuika",
+    "categories": ["yoshoku"],
+    "date": "2025-12-20",
+    "memo": "クリスマスディナーのメイン料理として作ってみたよ",
+    "photos": ["images/dishes/salmon-pie/1.jpg"]
+  },
+  {
+    "id": "roll-cabbage",
+    "name": "ロールキャベツ",
+    "cook": "yuika",
+    "categories": ["yoshoku"],
+    "date": "2026-08-15",
+    "memo": "キャベツが崩れずに作れてとっても美味しかった",
+    "photos": []
+  },
+  {
+    "id": "peach-burrata",
+    "name": "桃のブラータチーズ",
+    "cook": "yuika",
+    "categories": ["yoshoku"],
+    "date": "2026-08-10",
+    "memo": "新鮮な桃とチーズで見た目も味もgood",
+    "photos": []
   }
 ]
