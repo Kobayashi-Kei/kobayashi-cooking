@@ -15,7 +15,7 @@
     "categories": ["yoshoku"],
     "date": "2026-08-15",
     "memo": "キャベツが崩れずに作れてとっても美味しかった",
-    "photos": []
+    "photos": ["images/dishes/roll-cabbage/1.jpg"]
   },
   {
     "id": "peach-burrata",
@@ -24,6 +24,6 @@
     "categories": ["yoshoku"],
     "date": "2026-08-10",
     "memo": "新鮮な桃とチーズで見た目も味もgood",
-    "photos": []
+    "photos": ["images/dishes/peach-burrata/1.jpg"]
   }
 ]
