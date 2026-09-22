@@ -25,5 +25,50 @@
     "date": "2026-08-10",
     "memo": "新鮮な桃とチーズで見た目も味もgood",
     "photos": ["images/dishes/peach-burrata/1.jpg"]
+  },
+  {
+    "id": "omurice",
+    "name": "オムライス",
+    "cook": "yuika",
+    "categories": ["yoshoku"],
+    "date": "2025-08-01",
+    "memo": "",
+    "photos": ["images/dishes/omurice/1.jpg"]
+  },
+  {
+    "id": "acqua-pazza",
+    "name": "アクアパッツァ",
+    "cook": "yuika",
+    "categories": ["yoshoku"],
+    "date": "2025-08-01",
+    "memo": "",
+    "photos": ["images/dishes/acqua-pazza/1.jpg"]
+  },
+  {
+    "id": "hamburg-macaroni-salad",
+    "name": "ハンバーグとマカロニサラダ",
+    "cook": "yuika",
+    "categories": ["yoshoku"],
+    "date": "2025-08-01",
+    "memo": "",
+    "photos": ["images/dishes/hamburg-macaroni-salad/1.jpg"]
+  },
+  {
+    "id": "acai-bowl",
+    "name": "アサイーボウル",
+    "cook": "yuika",
+    "categories": ["other"],
+    "date": "2025-08-01",
+    "memo": "",
+    "photos": ["images/dishes/acai-bowl/1.jpg"]
+  },
+  {
+    "id": "christmas-set",
+    "name": "クリスマスセット",
+    "cook": "yuika",
+    "categories": ["yoshoku"],
+    "date": "2025-12-25",
+    "memo": "",
+    "photos": ["images/dishes/christmas-set/1.jpg"]
   }
 ]
